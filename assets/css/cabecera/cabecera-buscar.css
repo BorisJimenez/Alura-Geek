@@ -1,0 +1,17 @@
+@media screen and (min-width: 360px) {
+    .cabecera__buscar {
+        display: none;
+    }
+}
+
+
+@media screen and (min-width: 768px) {
+    .cabecera__buscar {
+        display: flex;
+        align-items: center;
+        border: 1px black solid;
+        border-radius: 25px;
+        padding:  0 0.5rem;
+    }
+}
+

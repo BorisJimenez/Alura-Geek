@@ -1,0 +1,19 @@
+@media screen and (min-width: 360px) {
+    .rodapie__item {
+        color: #464646;
+        font-size: 1.1rem;
+        margin-bottom: .5rem;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .rodapie__item {
+        margin-bottom: .8rem;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .rodapie__item {
+        margin-bottom: 1.2rem;
+    }
+}

@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alura Geek</title>
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/cabecera.css">
+    <link rel="stylesheet" href="assets/css/cabecera/cabecera-imagen.css">
+    <link rel="stylesheet" href="assets/css/cabecera/cabecera-boton.css">
+    <link rel="stylesheet" href="assets/css/cabecera/cabecera-lupa.css">
+    <link rel="stylesheet" href="assets/css/cabecera/cabecera-buscar-input.css">
+    <link rel="stylesheet" href="assets/css/cabecera/cabecera-buscar-lupa.css">
+    <link rel="stylesheet" href="assets/css/cabecera/cabecera-buscar.css">
+    <link rel="stylesheet" href="assets/css/cabecera/cabecera-composicion.css">
+    <link rel="stylesheet" href="assets/css/body.css">
+    <link rel="stylesheet" href="assets/css/banner/banner-boton.css">
+    <link rel="stylesheet" href="assets/css/banner/banner-descripcion.css">
+    <link rel="stylesheet" href="assets/css/banner/banner-titulo.css">
+    <link rel="stylesheet" href="assets/css/banner.css">
+    <link rel="stylesheet" href="assets/css/star-wars/star-wars-encabezado.css">
+    <link rel="stylesheet" href="assets/css/star-wars/star-wars-enlace.css">
+    <link rel="stylesheet" href="assets/css/star-wars/star-wars-titulo.css">
+    <link rel="stylesheet" href="assets/css/star-wars/star-wars-contenedor.css">
+    <link rel="stylesheet" href="assets/css/star-wars.css">
+    <link rel="stylesheet" href="assets/css/star-wars/star-wars-precio.css">
+    <link rel="stylesheet" href="assets/css/star-wars/star-wars-ver.css">
+    <link rel="stylesheet" href="assets/css/star-wars/star-wars-descripcion.css">
+    <link rel="stylesheet" href="assets/css/star-wars/star-wars-tarjeta.css">
+    <link rel="stylesheet" href="assets/css/star-wars/star-wars-imagen.css">
+    <link rel="stylesheet" href="assets/css/consolas/consolas-contenedor.css">
+    <link rel="stylesheet" href="assets/css/consolas/consolas-descripcion.css">
+    <link rel="stylesheet" href="assets/css/consolas/consolas-encabezado.css">
+    <link rel="stylesheet" href="assets/css/consolas/consolas-enlace.css">
+    <link rel="stylesheet" href="assets/css/consolas/consolas-imagen.css">
+    <link rel="stylesheet" href="assets/css/consolas/consolas-precio.css">
+    <link rel="stylesheet" href="assets/css/consolas/consolas-tarjeta.css">
+    <link rel="stylesheet" href="assets/css/consolas/consolas-titulo.css">
+    <link rel="stylesheet" href="assets/css/consolas/consolas-ver.css">
+    <link rel="stylesheet" href="assets/css/consolas.css">
+    <link rel="stylesheet" href="assets/css/diversos.css">
+    <link rel="stylesheet" href="assets/css/diversos/diversos-contenedor.css">
+    <link rel="stylesheet" href="assets/css/diversos/diversos-descripcion.css">
+    <link rel="stylesheet" href="assets/css/diversos/diversos-encabezado.css">
+    <link rel="stylesheet" href="assets/css/diversos/diversos-enlace.css">
+    <link rel="stylesheet" href="assets/css/diversos/diversos-imagen.css">
+    <link rel="stylesheet" href="assets/css/diversos/diversos-precio.css">
+    <link rel="stylesheet" href="assets/css/diversos/diversos-tarjeta.css">
+    <link rel="stylesheet" href="assets/css/diversos/diversos-titulo.css">
+    <link rel="stylesheet" href="assets/css/diversos/diversos-ver.css">
+    <link rel="stylesheet" href="assets/css/rodapie/rodapie-copy.css">
+    <link rel="stylesheet" href="assets/css/rodapie/rodapie-boris.css">
+    <link rel="stylesheet" href="assets/css/rodapie/rodapie-contenedor.css">
+    <link rel="stylesheet" href="assets/css/rodapie/rodapie-item.css">
+    <link rel="stylesheet" href="assets/css/rodapie/rodapie-lista.css">
+    <link rel="stylesheet" href="assets/css/rodapie/rodapie-habla.css">
+    <link rel="stylesheet" href="assets/css/rodapie/rodapie-habla-boton.css">
+    <link rel="stylesheet" href="assets/css/rodapie/rodapie-habla-titulo.css">
+    <link rel="stylesheet" href="assets/css/rodapie/rodapie-habla-nombre.css">
+    <link rel="stylesheet" href="assets/css/rodapie/rodapie-habla-input.css">
+    <link rel="stylesheet" href="assets/css/rodapie/rodapie-habla-label.css">
+    <link rel="stylesheet" href="assets/css/rodapie/rodapie-habla-area.css">
+    <link rel="stylesheet" href="assets/css/rodapie.css">
+    <link rel="stylesheet" href="assets/css/todo.css">
+
+</head>
+<body>
+    <header>
+        <div class="cabecera">
+            <div class="cabecera__composicion">
+                <img class="cabecera__imagen" src="assets/img/Logo.png" alt="Logo Alura Geek">
+                <form class="cabecera__buscar">
+                    <input class="cabecera__buscar-input" type="search" placeholder="¿Que deseas buscar?" data-buscar>
+                    <button class="cabecera__boton-lupa" onclick="buscar()"><p class="cabecera__buscar-lupa">&#128269;</p></button>
+                </form>
+            </div>
+            <button class="cabecera__boton"><a href="login.html">Login</a></button>
+            <p class="cabecera__lupa">&#128269;</p>
+        </div>
+    </header>
+
+    <main>
+        <div class="banner">
+            <h2 class="banner__titulo">Febrero Promocional</h2>
+            <p class="banner__descripcion">Productos seleccionados con 33% de descuento</p>
+            <button class="banner__boton"><a class="banner__boton-texto" href="#consolas">Ver Consolas</a></button>
+        </div>
+
+        <div class="todo">
+            <section class="star-wars">
+                <div class="star-wars__encabezado">
+                    <h2 class="star-wars__titulo">Star Wars</h2>
+                    <a class="star-wars__enlace" href="producto.html">Ver todo ➔</a>
+                </div>
+                <div class="star-wars__contenedor">
+                    <div class="star-wars__tarjeta">
+                        <img class="star-wars__imagen" src="assets/img/star-wars/star1.png" alt="Producto de Star Wars">
+                        <p class="star-wars__descripcion">Producto XYZ</p>
+                        <p class="star-wars__precio">$ 60.00</p>
+                        <p><a class="star-wars__ver" href="#">Ver producto</a></p>
+                    </div>
+                    <div class="star-wars__tarjeta">
+                        <img class="star-wars__imagen" src="assets/img/star-wars/star2.png" alt="Producto de Star Wars">
+                        <p class="star-wars__descripcion">Producto XYZ</p>
+                        <p class="star-wars__precio">$ 60.00</p>
+                        <p><a class="star-wars__ver" href="#">Ver producto</a></p>
+                    </div>
+                    <div class="star-wars__tarjeta">
+                        <img class="star-wars__imagen" src="assets/img/star-wars/star3.png" alt="Producto de Star Wars">
+                        <p class="star-wars__descripcion">Producto XYZ</p>
+                        <p class="star-wars__precio">$ 60.00</p>
+                        <p><a class="star-wars__ver" href="#">Ver producto</a></p>
+                    </div>
+                    <div class="star-wars__tarjeta">
+                        <img class="star-wars__imagen" src="assets/img/star-wars/star4.png" alt="Producto de Star Wars">
+                        <p class="star-wars__descripcion">Producto XYZ</p>
+                        <p class="star-wars__precio">$ 60.00</p>
+                        <p><a class="star-wars__ver" href="#">Ver producto</a></p>
+                    </div>
+                    <div class="star-wars__tarjeta oculto">
+                        <img class="star-wars__imagen" src="assets/img/star-wars/star5.png" alt="Producto de Star Wars">
+                        <p class="star-wars__descripcion">Producto XYZ</p>
+                        <p class="star-wars__precio">$ 60.00</p>
+                        <p><a class="star-wars__ver" href="#">Ver producto</a></p>
+                    </div>
+                    <div class="star-wars__tarjeta oculto">
+                        <img class="star-wars__imagen" src="assets/img/star-wars/star6.png" alt="Producto de Star Wars">
+                        <p class="star-wars__descripcion">Producto XYZ</p>
+                        <p class="star-wars__precio">$ 60.00</p>
+                        <p><a class="star-wars__ver" href="#">Ver producto</a></p>
+                    </div>
+                </div>         
+            </section>
+
+            <section class="consolas" id="consolas">
+                <div class="consolas__encabezado">
+                    <h2 class="consolas__titulo">Consolas</h2>
+                    <a class="consolas__enlace" href="producto.html">Ver todo ➔</a>
+                </div>
+                <div class="consolas__contenedor">
+                    <div class="consolas__tarjeta">
+                        <img class="consolas__imagen" src="assets/img/consolas/consolas1.png" alt="Producto de consolas">
+                        <p class="consolas__descripcion">Control XYZ</p>
+                        <p class="consolas__precio">$ 60.00</p>
+                        <p><a class="consolas__ver" href="#">Ver producto</a></p>
+                    </div>
+                    <div class="consolas__tarjeta">
+                        <img class="consolas__imagen" src="assets/img/consolas/consolas2.png" alt="Producto de consolas">
+                        <p class="consolas__descripcion">Control y consola XYZ</p>
+                        <p class="consolas__precio">$ 60.00</p>
+                        <p><a class="consolas__ver" href="#">Ver producto</a></p>
+                    </div>
+                    <div class="consolas__tarjeta">
+                        <img class="consolas__imagen" src="assets/img/consolas/consolas3.png" alt="Producto de consolas">
+                        <p class="consolas__descripcion">Consola XYZ</p>
+                        <p class="consolas__precio">$ 60.00</p>
+                        <p><a class="consolas__ver" href="#">Ver producto</a></p>
+                    </div>
+                    <div class="consolas__tarjeta">
+                        <img class="consolas__imagen" src="assets/img/consolas/consolas4.png" alt="Producto de consolas">
+                        <p class="consolas__descripcion">Control XYZ</p>
+                        <p class="consolas__precio">$ 60.00</p>
+                        <p><a class="consolas__ver" href="#">Ver producto</a></p>
+                    </div>
+                    <div class="consolas__tarjeta oculto">
+                        <img class="consolas__imagen" src="assets/img/consolas/consolas5.png" alt="Producto de consolas">
+                        <p class="consolas__descripcion">Consola XYZ</p>
+                        <p class="consolas__precio">$ 60.00</p>
+                        <p><a class="consolas__ver" href="#">Ver producto</a></p>
+                    </div>
+                    <div class="consolas__tarjeta oculto">
+                        <img class="consolas__imagen" src="assets/img/consolas/consolas6.png" alt="Producto de consolas">
+                        <p class="consolas__descripcion">Consola XYZ</p>
+                        <p class="consolas__precio">$ 60.00</p>
+                        <p><a class="consolas__ver" href="#">Ver producto</a></p>
+                    </div>
+                </div>
+            </section>
+
+            <section class="diversos">
+                <div class="diversos__encabezado">
+                    <h2 class="diversos__titulo">Diversos</h2>
+                    <a class="diversos__enlace" href="producto.html">Ver todo ➔</a>
+                </div>
+                <div class="diversos__contenedor">
+                    <div class="diversos__tarjeta">
+                        <img class="diversos__imagen" src="assets/img/diversos/diversos1.png" alt="Productos diversos">
+                        <p class="diversos__descripcion">Camisa Atari</p>
+                        <p class="diversos__precio">$ 60.00</p>
+                        <p><a class="diversos__ver" href="#">Ver producto</a></p>
+                    </div>
+                    <div class="diversos__tarjeta">
+                        <img class="diversos__imagen" src="assets/img/diversos/diversos2.png" alt="Productos diversos">
+                        <p class="diversos__descripcion">Camisa SNES</p>
+                        <p class="diversos__precio">$ 60.00</p>
+                        <p><a class="diversos__ver" href="#">Ver producto</a></p>
+                    </div>
+                    <div class="diversos__tarjeta">
+                        <img class="diversos__imagen" src="assets/img/diversos/diversos3.png" alt="Productos diversos">
+                        <p class="diversos__descripcion">Control y consola XYZ</p>
+                        <p class="diversos__precio">$ 60.00</p>
+                        <p><a class="diversos__ver" href="#">Ver producto</a></p>
+                    </div>
+                    <div class="diversos__tarjeta">
+                        <img class="diversos__imagen" src="assets/img/diversos/diversos4.png" alt="Productos diversos">
+                        <p class="diversos__descripcion">Control y consola XYZ</p>
+                        <p class="diversos__precio">$ 60.00</p>
+                        <p><a class="diversos__ver" href="#">Ver producto</a></p>
+                    </div>
+                    <div class="diversos__tarjeta oculto">
+                        <img class="diversos__imagen" src="assets/img/diversos/diversos5.png" alt="Productos diversos">
+                        <p class="diversos__descripcion">Control y consola XYZ</p>
+                        <p class="diversos__precio">$ 60.00</p>
+                        <p><a class="diversos__ver" href="#">Ver producto</a></p>
+                    </div>
+                    <div class="diversos__tarjeta oculto">
+                        <img class="diversos__imagen" src="assets/img/diversos/diversos6.png" alt="Productos diversos">
+                        <p class="diversos__descripcion">Control y consola XYZ</p>
+                        <p class="diversos__precio">$ 60.00</p>
+                        <p><a class="diversos__ver" href="#">Ver producto</a></p>
+                    </div>
+                </div>
+            </section>
+        </div>
+    
+    </main>
+
+    <footer>
+        <div class="rodapie">
+            <div class="rodapie__contenedor">
+                <div class="rodapie__imagen">
+                    <img src="assets/img/rodapie/Vector.png" alt="logo">
+                    <img src="assets/img/rodapie/Texto.png" alt="logo">
+                </div>
+                <ul class="rodapie__lista">
+                    <li class="rodapie__item">Quienes somos</li>
+                    <li class="rodapie__item">Politica de privacidad</li>
+                    <li class="rodapie__item">Programa de fidelidad</li>
+                    <li class="rodapie__item">Nuestras tiendas</li>
+                    <li class="rodapie__item">Quiero ser franquiciado</li>
+                    <li class="rodapie__item">Anúncie aqui</li>
+                </ul>
+            </div>
+            
+            <form class="rodapie__habla" onsubmit="validarFormularioRodapie()">
+                <h3 class="rodapie__habla-titulo">Hable con nosotros</h3>
+                <div class="rodapie__habla-nombre">
+                    <label class="rodapie__habla-label" for="nombre">Nombre</label>
+                    <input class="rodapie__habla-input" type="text" name="nombre" placeholder="Juan Perez" maxlength="40" required data-nombreR>
+                </div>
+                <textarea a class="rodapie__habla-area" name="mensaje" id="" cols="30" rows="10" placeholder="Escribe tu mensaje" maxlength="120" required data-mensajeR></textarea>
+                <button class="rodapie__habla-boton" type="submit">Enviar mensaje</button>
+            </form>
+        </div>
+        <div class="rodapie__copy">
+            <p class="rodapie__boris">Desarrollado por Boris Jimenez <br> 2023</p>
+        </div>
+    </footer>
+
+    <script src="./assets/script/rodapie.js"></script>
+    <script src="./assets/script/buscar.js"></script>
+    
+</body>
+</html>

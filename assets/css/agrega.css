@@ -1,0 +1,13 @@
+@media screen and (min-width: 360px) {
+    .agrega {
+        display: flex;
+        flex-direction: column;
+        padding: 0 1rem 1rem 1rem;
+    }  
+}
+
+@media screen and (min-width: 1024px) {
+    .agrega {
+        width: 30%;
+    }  
+}

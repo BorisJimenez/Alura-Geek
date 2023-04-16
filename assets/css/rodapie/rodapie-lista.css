@@ -1,0 +1,20 @@
+@media screen and (min-width: 360px) {
+    .rodapie__lista {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 1rem 0;
+    }      
+}
+
+@media screen and (min-width: 768px) {
+    .rodapie__lista {
+        align-items: start;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .rodapie__lista {
+        margin-left: 3rem;
+    }
+}

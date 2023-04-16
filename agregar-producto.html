@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agregar nuevo producto</title>
+    <link rel="stylesheet" href="assets/css/body.css">
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/cabecera.css">
+    <link rel="stylesheet" href="assets/css/cabecera/cabecera-imagen.css">
+    <link rel="stylesheet" href="assets/css/cabecera/cabecera-lupa.css">
+    <link rel="stylesheet" href="assets/css/cabecera/cabecera-boton.css">
+    <link rel="stylesheet" href="assets/css/cabecera/cabecera-buscar-input.css">
+    <link rel="stylesheet" href="assets/css/cabecera/cabecera-buscar-lupa.css">
+    <link rel="stylesheet" href="assets/css/cabecera/cabecera-buscar.css">
+    <link rel="stylesheet" href="assets/css/cabecera/cabecera-composicion.css">
+    <link rel="stylesheet" href="assets/css/agrega/agrega-area.css">
+    <link rel="stylesheet" href="assets/css/agrega/agrega-input.css">
+    <link rel="stylesheet" href="assets/css/agrega/agrega-item.css">
+    <link rel="stylesheet" href="assets/css/agrega/agrega-label.css">
+    <link rel="stylesheet" href="assets/css/agrega/agrega-titulo.css">
+    <link rel="stylesheet" href="assets/css/agrega/agrega-boton.css">
+    <link rel="stylesheet" href="assets/css/agrega.css">
+    <link rel="stylesheet" href="assets/css/rodapie/rodapie-copy.css">
+    <link rel="stylesheet" href="assets/css/rodapie/rodapie-boris.css">
+    <link rel="stylesheet" href="assets/css/rodapie/rodapie-contenedor.css">
+    <link rel="stylesheet" href="assets/css/rodapie/rodapie-item.css">
+    <link rel="stylesheet" href="assets/css/rodapie/rodapie-lista.css">
+    <link rel="stylesheet" href="assets/css/rodapie/rodapie-habla.css">
+    <link rel="stylesheet" href="assets/css/rodapie/rodapie-habla-boton.css">
+    <link rel="stylesheet" href="assets/css/rodapie/rodapie-habla-titulo.css">
+    <link rel="stylesheet" href="assets/css/rodapie/rodapie-habla-nombre.css">
+    <link rel="stylesheet" href="assets/css/rodapie/rodapie-habla-input.css">
+    <link rel="stylesheet" href="assets/css/rodapie/rodapie-habla-label.css">
+    <link rel="stylesheet" href="assets/css/rodapie/rodapie-habla-area.css">
+    <link rel="stylesheet" href="assets/css/rodapie.css">
+    <link rel="stylesheet" href="assets/css/agrega/agregar-producto.css">
+</head>
+
+<body>
+    <header>
+        <div class="cabecera">
+            <div class="cabecera__composicion">
+                <img class="cabecera__imagen" src="assets/img/Logo.png" alt="Logo Alura Geek">
+                <form class="cabecera__buscar">
+                    <input class="cabecera__buscar-input" type="search" placeholder="¿Que deseas buscar?" data-buscar>
+                    <button class="cabecera__boton-lupa" onclick="buscar()"><p class="cabecera__buscar-lupa">&#128269;</p></button>
+                </form>
+            </div>
+            <button class="cabecera__boton"><a href="producto.html">Menú Administrador</a></button>
+            <p class="cabecera__lupa">&#128269;</p>
+        </div>
+    </header>
+
+    <main class="agregar__producto">
+        <form class="agrega">
+            <h2 class="agrega__titulo">Agregar nuevo producto</h2>
+            <div class="agrega__item">
+                <label class="agrega__label" for="imagen">URL de la imagen</label>
+                <input class="agrega__input" type="url" name="imagen" placeholder="assets/img/star-wars/star1.png" required>
+            </div>
+            <div class="agrega__item">
+                <label class="agrega__label" for="categoria">Categoría</label>
+                <input class="agrega__input" type="text" name="categoria" placeholder="Star Wars o Consolas o Diversos" required>
+            </div>
+            <div class="agrega__item">
+                <label class="agrega__label" for="nombreProducto">Nombre del producto</label>
+                <input class="agrega__input" type="text" name="nombreProducto" placeholder="Producto XYZ" maxlength="20" required>
+            </div>
+            <div class="agrega__item">
+                <label class="agrega__label" for="precioProducto">Precio del producto</label>
+                <input class="agrega__input" type="number" name="precioProducto" placeholder="$60.00" required>
+            </div>
+            <textarea class="agrega__area" name="descripcion" id="" cols="30" rows="10" placeholder="Descripción del producto" maxlength="150" required></textarea>
+            <button class="agrega__boton">Agregar Producto</button>
+        </form>
+    </main>
+
+    <footer>
+        <div class="rodapie">
+            <div class="rodapie__contenedor">
+                <div class="rodapie__imagen">
+                    <img src="assets/img/rodapie/Vector.png" alt="logo">
+                    <img src="assets/img/rodapie/Texto.png" alt="logo">
+                </div>
+                <ul class="rodapie__lista">
+                    <li class="rodapie__item">Quienes somos</li>
+                    <li class="rodapie__item">Politica de privacidad</li>
+                    <li class="rodapie__item">Programa de fidelidad</li>
+                    <li class="rodapie__item">Nuestras tiendas</li>
+                    <li class="rodapie__item">Quiero ser franquiciado</li>
+                    <li class="rodapie__item">Anúncie aqui</li>
+                </ul>
+            </div>
+            
+            <form class="rodapie__habla" onsubmit="validarFormularioRodapie()">
+                <h3 class="rodapie__habla-titulo">Hable con nosotros</h3>
+                <div class="rodapie__habla-nombre">
+                    <label class="rodapie__habla-label" for="nombre">Nombre</label>
+                    <input class="rodapie__habla-input" type="text" name="nombre" placeholder="Juan Perez" maxlength="40" required data-nombreR>
+                </div>
+                <textarea a class="rodapie__habla-area" name="mensaje" id="" cols="30" rows="10" placeholder="Escribe tu mensaje" maxlength="120" required data-mensajeR></textarea>
+                <button class="rodapie__habla-boton" type="submit">Enviar mensaje</button>
+            </form>
+        </div>
+        <div class="rodapie__copy">
+            <p class="rodapie__boris">Desarrollado por Boris Jimenez <br> 2023</p>
+        </div>
+    </footer>
+
+    <script src="./assets/script/rodapie.js"></script>
+    <script src="./assets/script/buscar.js"></script>
+    <script src="./assets/script/nuevo-producto.js"></script>
+    
+</body>
+</html>

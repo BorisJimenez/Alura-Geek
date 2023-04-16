@@ -1,0 +1,21 @@
+@media screen and (min-width: 360px) {
+    .rodapie__contenedor {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background: #EAF2FD;
+        padding: 1rem;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .rodapie__contenedor {
+        align-items: start;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .rodapie__contenedor{
+        flex-direction: row;
+    }
+}

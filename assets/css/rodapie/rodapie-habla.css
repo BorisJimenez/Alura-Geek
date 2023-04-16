@@ -1,0 +1,14 @@
+@media screen and (min-width: 360px) {
+    .rodapie__habla {
+        display: flex;
+        flex-direction: column;
+        background: #EAF2FD;
+        padding: 0 1rem 1rem 1rem;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .rodapie__habla {
+        width: 55%;
+    }
+}

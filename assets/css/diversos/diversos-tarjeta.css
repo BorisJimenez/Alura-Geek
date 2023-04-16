@@ -1,0 +1,23 @@
+.diversos__tarjeta{
+    margin-bottom: 1rem;
+}
+
+.diversos__composicion{
+    display: flex;
+    flex-direction: column;
+    height: 65%;
+}
+
+.diversos__borrar{
+    position: relative;
+    width: 1rem;
+    top: -160px;
+    left: 60%;
+}
+
+.diversos__editar{
+    position: relative;
+    width: 1rem;
+    top: -180px;
+    left: 80%;
+}

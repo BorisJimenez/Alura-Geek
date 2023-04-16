@@ -1,0 +1,19 @@
+@media screen and (min-width: 360px) {
+    .todo__boton{
+        width: 40%;
+        height: 2.5rem;
+        background: #2A7AE4;
+        border: none;
+    }
+    
+    .todo__boton a {
+        color: #e9e6e6;
+        text-decoration: none;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .todo__boton{
+        width: 10rem;
+    }
+}

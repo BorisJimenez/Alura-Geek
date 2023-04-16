@@ -1,0 +1,8 @@
+@media screen and (min-width: 768px) {
+    .rodapie {
+        display: flex;
+        justify-content: space-around;
+        background: #EAF2FD;
+        padding-top: 2rem;
+    }
+}

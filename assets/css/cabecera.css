@@ -1,0 +1,8 @@
+.cabecera{
+    background: rgb(247, 247, 247);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 4rem;
+}
+

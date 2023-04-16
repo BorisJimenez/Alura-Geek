@@ -1,0 +1,10 @@
+.cabecera__boton{
+    width: 10rem;
+    padding: 0.5rem 1rem;
+    border: 1px solid #2A7AE4;
+}
+
+.cabecera__boton a {
+    color: #2A7AE4;
+    text-decoration: none;
+}
